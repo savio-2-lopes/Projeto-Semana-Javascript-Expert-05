@@ -2,7 +2,7 @@
 
 <br>
 
-#### Aula 1 finalizada :rocket:
+#### Aula 2 finalizada :rocket:
 
 <br>
 
