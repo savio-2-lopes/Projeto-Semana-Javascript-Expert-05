@@ -2,6 +2,10 @@
 
 Você verá uma mensagem igual à abaixo quando usando estes certificados:
 
+![](./sslproblem.png)
+
+Isso acontece pois o certificado que gerei, foi atrelado ao meu usuário. Mas não se preocupe, você pode clicar em avançado no browser e prosseguir para à aplicação.
+
 ## Você pode também gerar sua própria chave se necessário.
 
 - Para gerar sua própria chave você precisa: 
