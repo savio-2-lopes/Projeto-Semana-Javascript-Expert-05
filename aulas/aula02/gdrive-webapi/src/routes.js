@@ -3,15 +3,16 @@ import { logger } from "./logger.js"
 import { dirname, resolve } from 'path'
 import { fileURLToPath, parse } from 'url'
 import { pipeline } from "stream/promises"
+import UploadHandler from './uploadHandler.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const defaultDownloadsFolder = resolve(__dirname, '../', "downloads")
 
 export default class Routes {
-  io
   constructor(downloadsFolder = defaultDownloadsFolder) {
     this.downloadsFolder = downloadsFolder
     this.fileHelper = FileHelper
+    this.io = {}
   }
 
   setSocketInstance(io) {
@@ -45,10 +46,13 @@ export default class Routes {
 
     const busboyInstance = uploadHandler.registerEvents(
       headers,
-      onFinish
+      onFinish(response)
     )
-
-
+    await pipeline(
+      request,
+      busboyInstance
+    )
+    logger.info('Request finished with success')
   }
 
   async get(request, response) {
