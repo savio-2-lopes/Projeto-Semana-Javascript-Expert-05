@@ -132,7 +132,6 @@ describe('#Routes test suite', () => {
 
       expect(params.response.writeHead).toHaveBeenCalledWith(200)
       expect(params.response.end).toHaveBeenCalledWith(JSON.stringify(filesStatusesMock))
-
     })
   })
 
@@ -161,7 +160,6 @@ describe('#Routes test suite', () => {
 
       const expectedResult = JSON.stringify({ result: 'Files uploaded with success!' })
       expect(options.response.end).toHaveBeenCalledWith(expectedResult)
-
     })
   })
 })

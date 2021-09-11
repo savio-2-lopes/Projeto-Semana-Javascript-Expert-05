@@ -31,7 +31,7 @@
 
 ## 💻 Sobre o projeto
 
-🚀  Clone do Google Drive, desenvolvido durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel)
+🚀 Clone do Google Drive, desenvolvido durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel)
 
 <br>
 
@@ -73,7 +73,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 <br>
 
-#### 🧭 Rodando a aplicação
+#### 🧭 Rodando a aplicação (Back-end)
 
 ```bash
 
@@ -83,15 +83,32 @@ $ git clone https://github.com/savio-2-lopes/semana-javascript-expert05.git
 # Acesse a aula 3 (completa)
 $ cd semana-javascript-expert05/aulas/aula3
 
-# Instale as depedências e execute o backend
+# Acesse a pasta da API
 $ cd gdrive-webapi 
+
+```
+
+<br>
+
+#### 🧭 Rodando a aplicação (Front-end)
+
+```bash
+# Instale as depedências
 $ yarn
+
+# Execute o backend
 $ yarn start
 
-# Saia da pasta do backend, instale as depedências e execute o Frontend
+# Sai da pasta da API
 $ cd ..
+
+# Acesse o frontend
 $ cd gdrive-webapp  
+
+# Instale as depedências
 $ yarn
+
+# Execute o frontend
 $ yarn dev
 
 # A tela será aberta em seu navegador
@@ -107,6 +124,11 @@ $ yarn dev
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [NodeJS](https://nodejs.org/en/)
+- [Socket.io](https://socket.io/)
+- [Busboy](https://github.com/mscdex/busboy)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Materialize.css](https://materializecss.com/)
 
 <br>
 
