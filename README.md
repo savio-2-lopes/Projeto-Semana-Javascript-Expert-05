@@ -90,7 +90,7 @@ $ cd gdrive-webapi
 
 <br>
 
-#### 🧭 Rodando a aplicação (Back-end)
+#### 🧭 Rodando a aplicação (Front-end)
 
 ```bash
 # Instale as depedências
