@@ -126,14 +126,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Socket.io](https://socket.io/)
 - [Busboy](https://github.com/mscdex/busboy)
 - [Jest](https://jestjs.io/pt-BR/)
-- [Jest](https://jestjs.io/pt-BR/)
 - [Materialize.css](https://materializecss.com/)
-
-<br>
-
-## 💜 Agradecimentos
-
-A aplicação foi desenvolvida durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel). Todos meus agradecimentos a [Erick Wendel](https://github.com/ErickWendel) por disponibilizar este contéudo sensacional.
 
 <br>
 
@@ -147,3 +140,9 @@ A aplicação foi desenvolvida durante a [5º Semana Javascript Expert](https://
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=gmail&logoColor=white)](mailto:savio.dev.lopes@gmail.com) 
 
 Desenvolvido por Savio Lopes 👋🏽 [Entre em contato!](https://www.linkedin.com/in/savio-lopes/)
+
+<br>
+
+## 💜 Agradecimentos
+
+A aplicação foi desenvolvida durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel). Todos meus agradecimentos a [Erick Wendel](https://github.com/ErickWendel) por disponibilizar este contéudo sensacional.

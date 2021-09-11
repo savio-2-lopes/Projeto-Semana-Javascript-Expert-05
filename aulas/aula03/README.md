@@ -47,7 +47,7 @@ O Layout foi adaptado a partir do projeto de [Leonardo Santo](https://github.com
 
 ## :zap: Deploy 
 
-O deploy da aplicação está disponível por este [link](#). 
+O deploy da aplicação está disponível por este [link](https://gdrive-webapp-ew.herokuapp.com). 
 
 <br>
 
@@ -86,6 +86,11 @@ $ cd semana-javascript-expert05/aulas/aula3
 # Acesse a pasta da API
 $ cd gdrive-webapi 
 
+# Instale as depedências
+$ yarn
+
+# Execute o backend
+$ yarn start
 ```
 
 <br>
@@ -93,12 +98,6 @@ $ cd gdrive-webapi
 #### 🧭 Rodando a aplicação (Front-end)
 
 ```bash
-# Instale as depedências
-$ yarn
-
-# Execute o backend
-$ yarn start
-
 # Sai da pasta da API
 $ cd ..
 
@@ -127,14 +126,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Socket.io](https://socket.io/)
 - [Busboy](https://github.com/mscdex/busboy)
 - [Jest](https://jestjs.io/pt-BR/)
-- [Jest](https://jestjs.io/pt-BR/)
 - [Materialize.css](https://materializecss.com/)
-
-<br>
-
-## 💜 Agradecimentos
-
-A aplicação foi desenvolvida durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel). Todos meus agradecimentos a [Erick Wendel](https://github.com/ErickWendel) por disponibilizar este contéudo sensacional.
 
 <br>
 
@@ -148,3 +140,9 @@ A aplicação foi desenvolvida durante a [5º Semana Javascript Expert](https://
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=gmail&logoColor=white)](mailto:savio.dev.lopes@gmail.com) 
 
 Desenvolvido por Savio Lopes 👋🏽 [Entre em contato!](https://www.linkedin.com/in/savio-lopes/)
+
+<br>
+
+## 💜 Agradecimentos
+
+A aplicação foi desenvolvida durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel). Todos meus agradecimentos a [Erick Wendel](https://github.com/ErickWendel) por disponibilizar este contéudo sensacional.

@@ -31,7 +31,7 @@
 
 ## 💻 Sobre o projeto
 
-🚀  Clone do Google Drive, desenvolvido durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel)
+🚀 Clone do Google Drive, desenvolvido durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel)
 
 <br>
 
@@ -47,7 +47,7 @@ O Layout foi adaptado a partir do projeto de [Leonardo Santo](https://github.com
 
 ## :zap: Deploy 
 
-O deploy da aplicação está disponível por este [link](#). 
+O deploy da aplicação está disponível por este [link](https://gdrive-webapp-ew.herokuapp.com). 
 
 <br>
 
@@ -73,7 +73,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 <br>
 
-#### 🧭 Rodando a aplicação
+#### 🧭 Rodando a aplicação (Back-end)
 
 ```bash
 
@@ -83,15 +83,31 @@ $ git clone https://github.com/savio-2-lopes/semana-javascript-expert05.git
 # Acesse a aula 3 (completa)
 $ cd semana-javascript-expert05/aulas/aula3
 
-# Instale as depedências e execute o backend
+# Acesse a pasta da API
 $ cd gdrive-webapi 
-$ yarn
-$ yarn start
 
-# Saia da pasta do backend, instale as depedências e execute o Frontend
-$ cd ..
-$ cd gdrive-webapp  
+# Instale as depedências
 $ yarn
+
+# Execute o backend
+$ yarn start
+```
+
+<br>
+
+#### 🧭 Rodando a aplicação (Front-end)
+
+```bash
+# Sai da pasta da API
+$ cd ..
+
+# Acesse o frontend
+$ cd gdrive-webapp  
+
+# Instale as depedências
+$ yarn
+
+# Execute o frontend
 $ yarn dev
 
 # A tela será aberta em seu navegador
@@ -107,12 +123,10 @@ $ yarn dev
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [NodeJS](https://nodejs.org/en/)
-
-<br>
-
-## 💜 Agradecimentos
-
-A aplicação foi desenvolvida durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel). Todos meus agradecimentos a [Erick Wendel](https://github.com/ErickWendel) por disponibilizar este contéudo sensacional.
+- [Socket.io](https://socket.io/)
+- [Busboy](https://github.com/mscdex/busboy)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Materialize.css](https://materializecss.com/)
 
 <br>
 
@@ -126,3 +140,9 @@ A aplicação foi desenvolvida durante a [5º Semana Javascript Expert](https://
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=gmail&logoColor=white)](mailto:savio.dev.lopes@gmail.com) 
 
 Desenvolvido por Savio Lopes 👋🏽 [Entre em contato!](https://www.linkedin.com/in/savio-lopes/)
+
+<br>
+
+## 💜 Agradecimentos
+
+A aplicação foi desenvolvida durante a [5º Semana Javascript Expert](https://javascriptexpert.com.br), ministrada por [Erick Wendel](https://github.com/ErickWendel). Todos meus agradecimentos a [Erick Wendel](https://github.com/ErickWendel) por disponibilizar este contéudo sensacional.
